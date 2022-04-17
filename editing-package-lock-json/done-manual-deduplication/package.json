@@ -1,0 +1,21 @@
+{
+  "name": "debug",
+  "version": "1.0.0",
+  "description": "Demonstration of using the debug node module",
+  "main": "barebones.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon barebones.js"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}

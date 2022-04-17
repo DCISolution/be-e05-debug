@@ -1,0 +1,26 @@
+{
+  "name": "debug",
+  "version": "1.0.0",
+  "description": "Demonstration of using the debug node module",
+  "main": "server.js",
+  "scripts": {
+    "start": "DEBUG=app:* nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCISolution/be-e05-debug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCISolution/be-e05-debug/issues"
+  },
+  "homepage": "https://github.com/DCISolution/be-e05-debug#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}

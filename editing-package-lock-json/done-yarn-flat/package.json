@@ -1,0 +1,31 @@
+{
+  "name": "debug-yarn-flat",
+  "version": "1.0.0",
+  "description": "Demonstration of using the debug node module",
+  "main": "barebones.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon barebones.js"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "resolutions": {
+    "debug": "4.3.4",
+    "ms": "2.1.3",
+    "semver": "7.3.7",
+    "supports-color": "7.2.0",
+    "has-flag": "4.0.0",
+    "ini": "2.0.0",
+    "get-stream": "5.2.0",
+    "lowercase-keys": "2.0.0"
+  }
+}
